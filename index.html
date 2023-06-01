@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <img id="leaves" src="halie-west-25xggax4bSA-unsplash.jpg" alt="leaves">
+        <div id="logo_box">
+            <img id="logo" src="odin-lined.png" alt="oding project logo">
+            <p class="white large">ODIN</p>
+        </div>
+        <p id='img_cred' class="white small">Photo by <a class="white small" href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a class="white small" href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+    </div>
+
+    <div class="main">
+        <div class="top">
+            <p>This is not a real online Service! You know you need something like this to practice forms. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <form action="">
+        <fieldset>
+            <legend>Let's do this!</legend>
+            <div class="grid">
+                <div class="item">
+                    <label for="first_name">FIRST NAME</label>
+                    <input minlength = "1" type="text" id="first_name">
+                </div>
+                <div class="item">
+                    <label for="last_name">LAST NAME</label>
+                    <input minlength="1" type="text" id="last_name">
+                </div>
+                <div class="item">
+                    <label for="email">EMAIL</label>
+                    <input min-length='1' type="email" id="email">
+                </div>
+                <div class="item">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input minlength='1' type="text" id="phone">
+                </div>
+                <div class="item">
+                    <label for="pwd">PASSWORD</label>
+                    <input required type="password" id="pwd">
+                </div>
+                <div class="item">
+                    <label for="cpwd">CONFIRM PASSWORD</label>
+                    <input required type="password" id="cpwd">
+                </div>
+            </div>
+        </fieldset>
+        <button type="submit" id="submit">Create Account</button>
+        </form>
+        <div class="bottom">
+            Already have an account? <a href="google.com">Log in</a>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

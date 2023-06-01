@@ -1,0 +1,116 @@
+#leaves{
+    max-width:50vw;
+    min-width:30vw;
+    height: 100vh;
+    top: 0px;
+    z-index:-1;
+
+}
+body{
+    display:flex;
+    justify-content: flex-start;
+    margin:0;
+    padding: 0;
+}
+html{
+    padding: 0;
+    margin: 0;
+}
+#img_cred{
+    position:absolute;
+    bottom:10px;
+    left:30px;
+}
+.small{
+    font-size: 0.5em;
+}
+.large{
+    font-size: 2em;
+}
+.sidebar{
+    position:relative;
+}
+#logo_box{
+position: absolute;
+top: 20%;
+background-color: rgba(0,0,0,50%);
+display:flex;
+justify-content: center;
+padding: 10px;
+margin: 20px;
+}
+
+.white{
+    color:white;
+}
+#logo{
+    max-width: 20%;
+}
+a{
+    color:green;
+    text-decoration: none;
+}
+button{
+    background-color: green;
+    color:white;
+}
+.main{
+    display:flex;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top:30px;
+    background-color: rgb(222, 217, 217);
+}
+form{
+    background-color: white;
+    padding:2em;
+
+}
+.top{
+    padding:2em;
+    font-weight: bold;
+}
+.grid{
+    margin-top:2em;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 2em;
+}
+.item{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+button{
+    max-width: 30%;
+    margin:20px;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+}
+.bottom{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.sidebar{
+    padding: 0px;
+    margin: 0;
+
+}
+legend{
+    float:left;
+    font-weight: bold;
+}
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color:green;
+}
+
+input:focus{
+    background-color: rgba(138, 121, 121, 0.2);
+}
